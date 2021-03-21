@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+  background: url("../images/splash.jpg") no-repeat;
+  background-size: 100%;
+  background-color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.left {
+  display: inline-block;
+  width: 100px;
+  margin-top: 7px;
+  margin-left: 26px;
+}
+
+.left img {
+  filter: invert(1);
+  width: 59%;
+  display: block;
+  margin: auto;
+}
+
+.left div {
+  text-align: center;
+}
+
+.left a {
+  text-decoration: none;
+}
+
+.left a:hover img {
+  filter: invert(85%);
+}
+
+.mid {
+  display: block;
+  width: 39%;
+  margin: -58px auto;
+  font-size: 23px;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px 5px;
+  margin: 4px 5px;
+}
+
+.navbar li a {
+  text-decoration: none;
+}
+
+.navbar li a.active {
+  color: rgb(201, 200, 200);
+  text-decoration: underline;
+}
+
+.navbar li a:hover {
+  color: rgb(201, 200, 200);
+}
+
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 22px;
+  top: 22px;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  border: 1px solid rgb(85, 85, 85);
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 5px 9px;
+  margin: 7px 3px;
+}
+
+.btn:hover {
+  background-color: rgb(201, 200, 200);
+  color: black;
+}
+
+.container {
+  background-color: black;
+  display: inline-block;
+  width: 33%;
+  position: relative;
+  top: 176px;
+  left: 194px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.container h2 {
+  text-align: center;
+  padding: 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.container h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+
+.container input {
+  display: block;
+  width: 65%;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.inputs input {
+  color: black;
+  border-radius: 8px;
+}
+
+.container input.btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 68%;
+  outline: none;
+}
