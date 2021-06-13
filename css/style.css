@@ -9,6 +9,7 @@ body {
   background-size: 100%;
   background-color: black;
   font-family: "Ubuntu", sans-serif;
+  height: 100vh;
 }
 
 .left {
@@ -92,6 +93,7 @@ body {
   display: block;
   margin: 7px auto;
   width: 68%;
+  margin-bottom: 2rem;
 }
 
 .container {
@@ -135,3 +137,17 @@ body {
   width: 68%;
   outline: none;
 }
+
+@media (max-width: 972px) {
+  .container {
+    width: 45%;
+    left: 10%;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 80%;
+  }
+}
+
+
