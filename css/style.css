@@ -8,7 +8,7 @@ body {
   background: url("../images/splash.jpg") no-repeat;
   background-size: 100%;
   background-color: black;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .left {
@@ -64,7 +64,6 @@ body {
   color: rgb(201, 200, 200);
 }
 
-
 .right {
   display: inline-block;
   position: absolute;
@@ -76,7 +75,7 @@ body {
   color: white;
   background-color: black;
   display: inline-block;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   border: 1px solid rgb(85, 85, 85);
   font-size: 15px;
   border-radius: 6px;
@@ -87,6 +86,12 @@ body {
 .btn:hover {
   background-color: rgb(201, 200, 200);
   color: black;
+}
+
+.btn-submit {
+  display: block;
+  margin: 7px auto;
+  width: 68%;
 }
 
 .container {
